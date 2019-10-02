@@ -1,4 +1,4 @@
-marks=int(input("Enter the marks? ")
+marks=int(input("Enter the marks? "))
 
 if (marks > 85 and marks <= 100):
    print("Congrats ! you scored grade A ...")
