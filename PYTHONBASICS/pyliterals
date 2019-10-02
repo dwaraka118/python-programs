@@ -1,0 +1,95 @@
+Python Literals
+Literals can be defined as a data that is given in a variable or constant.
+
+Python support the following literals:
+
+I. String literals:
+
+String literals can be formed by enclosing a text in the quotes. We can use both single as well as double quotes for a String.
+
+Eg:
+
+"Aman" , '12345'
+
+Types of Strings:
+
+There are two types of Strings supported in Python:
+
+a).Single line String- Strings that are terminated within a single line are known as Single line Strings.
+
+Eg:
+
+>>> text1='hello'
+b).Multi line String- A piece of text that is spread along multiple lines is known as Multiple line String.
+
+There are two ways to create Multiline Strings:
+
+1). Adding black slash at the end of each line.
+
+Eg:
+
+>>> text1='hello\
+user'
+>>> text1
+'hellouser'
+>>>
+2).Using triple quotation marks:-
+
+Eg:
+
+>>> str2='''''welcome
+to
+SSSIT'''
+>>> print str2
+welcome
+to
+SSSIT
+>>>
+II.Numeric literals:
+
+Numeric Literals are immutable. Numeric literals can belong to following four different numerical types.
+
+Int(signed integers)	Long(long integers)	float(floating point)	Complex(complex)
+Numbers( can be both positive and negative) with no fractional part.eg: 100	Integers of unlimited size followed by lowercase or uppercase L eg: 87032845L	Real numbers with both integer and fractional part eg: -26.2	In the form of a+bj where a forms the real part and b forms the imaginary part of complex number. eg: 3.14j
+III. Boolean literals:
+
+A Boolean literal can have any of the two values: True or False.
+
+IV. Special literals.
+
+Python contains one special literal i.e., None.
+
+None is used to specify to that field that is not created. It is also used for end of lists in Python.
+
+Eg:
+
+>>> val1=10
+>>> val2=None
+>>> val1
+10
+>>> val2
+>>> print val2
+None
+>>>
+V.Literal Collections.
+
+Collections such as tuples, lists and Dictionary are used in Python.
+
+List:
+
+List contain items of different data types. Lists are mutable i.e., modifiable.
+The values stored in List are separated by commas(,) and enclosed within a square brackets([]). We can store different type of data in a List.
+Value stored in a List can be retrieved using the slice operator([] and [:]).
+The plus sign (+) is the list concatenation and asterisk(*) is the repetition operator.
+Eg:
+
+>>> list=['aman',678,20.4,'saurav']
+>>> list1=[456,'rahul']
+>>> list
+['aman', 678, 20.4, 'saurav']
+>>> list[1:3]
+[678, 20.4]
+>>> list+list1
+['aman', 678, 20.4, 'saurav', 456, 'rahul']
+>>> list1*2
+[456, 'rahul', 456, 'rahul']

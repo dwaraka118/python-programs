@@ -1,0 +1,132 @@
+Python Variables:
+Variable is a name which is used to refer memory location. Variable also known as identifier and used to hold value.
+
+In Python, we don't need to specify the type of variable because Python is a type infer language and smart enough to get variable type.
+
+Variable names can be a group of both letters and digits, but they have to begin with a letter or an underscore.
+
+It is recomended to use lowercase letters for variable name. Rahul and rahul both are two different variables.
+
+Identifier Naming:
+Variables are the example of identifiers. An Identifier is used to identify the literals used in the program. The rules to name an identifier are given below.
+
+The first character of the variable must be an alphabet or underscore ( _ ).
+All the characters except the first character may be an alphabet of lower-case(a-z), upper-case (A-Z), underscore or digit (0-9).
+Identifier name must not contain any white-space, or special character (!, @, #, %, ^, &, *).
+Identifier name must not be similar to any keyword defined in the language.
+Identifier names are case sensitive for example my name, and MyName is not the same.
+Examples of valid identifiers : a123, _n, n_9, etc.
+Examples of invalid identifiers: 1a, n%4, n 9, etc.
+Declaring Variable and Assigning Values
+Python does not bound us to declare variable before using in the application. It allows us to create variable at required time.
+
+We don't need to declare explicitly variable in Python. When we assign any value to the variable that variable is declared automatically.
+
+The equal (=) operator is used to assign value to a variable.
+
+Eg:
+
+Assigning Values to Variable
+Output:
+
+>>>
+10
+ravi
+20000.67
+>>>
+Multiple Assignment
+Python allows us to assign a value to multiple variables in a single statement which is also known as multiple assignment.
+
+We can apply multiple assignments in two ways either by assigning a single value to multiple variables or assigning multiple values to multiple variables. Lets see given examples.
+
+1. Assigning single value to multiple variables
+
+Eg:
+
+x=y=z=50
+print (x)
+print (y)
+print (z)
+Output:
+
+>>>
+50
+50
+50
+>>>
+2.Assigning multiple values to multiple variables:
+
+Eg:
+
+a,b,c=5,10,15
+print (a)
+print (b)
+print (c)
+Output:
+
+>>>
+5
+10
+15
+>>>
+The values will be assigned in the order in which variables appears.
+
+Basic Fundamentals:
+This section contains the basic fundamentals of Python like :
+
+i)Tokens and their types.
+
+ii) Comments
+
+a)Tokens:
+
+Tokens can be defined as a punctuator mark, reserved words and each individual word in a statement.
+Token is the smallest unit inside the given program.
+
+
+There are following tokens in Python:
+
+Keywords.
+Identifiers.
+Literals.
+Operators.
+Tuples:
+
+Tuple is another form of collection where different type of data can be stored.
+It is similar to list where data is separated by commas. Only the difference is that list uses square bracket and tuple uses parenthesis.
+Tuples are enclosed in parenthesis and cannot be changed.
+
+Eg:
+
+tuple=('rahul',100,60.4,'deepak')
+tuple1=('sanjay',10)
+print(tuple)
+print(tuple[2:])
+print(tuple1[0])
+print(tuple+tuple1)
+
+OUTPUT:
+('rahul', 100, 60.4, 'deepak')
+(60.4, 'deepak')
+sanjay
+('rahul', 100, 60.4, 'deepak', 'sanjay', 10)
+
+Dictionary:
+
+Dictionary is a collection which works on a key-value pair.
+It works like an associated array where no two keys can be same.
+Dictionaries are enclosed by curly braces ({}) and values can be retrieved by square bracket([]).
+Eg:
+
+dictionary={'name':'charlie','id':100,'dept':'it'}
+print(dictionary)
+#{'dept': 'it', 'name': 'charlie', 'id': 100}
+print(dictionary.keys())
+#['dept', 'name', 'id']
+print(dictionary.values())
+#['it', 'charlie', 100]
+
+OUTPUT:
+{'name': 'charlie', 'id': 100, 'dept': 'it'}
+dict_keys(['name', 'id', 'dept'])
+dict_values(['charlie', 100, 'it'])
